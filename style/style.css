@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../namaste/fonts/Montserrat-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+table {
+    padding: 10%
+}
+
+td:first-child {
+    padding-right: 3%;
+}
+
+tr:first-child td:hover {
+    filter: blur(2px);
+}
+
+tr:last-child td {
+    padding-top: 3%;
+    font-family: "Montserrat-Bold";
+    font-size: 50px;
+    color: rgb(118, 224, 224);
+}
